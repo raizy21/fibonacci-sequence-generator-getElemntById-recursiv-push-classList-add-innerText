@@ -9,6 +9,6 @@ function generateFibonacci() {
   }
 
   let result = document.getElementById("sequence");
-  result.classList.add(".sequence");
-  result.innerText = "Fibonacci Sequence:" + sequence.join(",");
+  result.classList.add("sequence");
+  result.innerText = "Fibonacci Sequence: " + sequence.join(",");
 }
